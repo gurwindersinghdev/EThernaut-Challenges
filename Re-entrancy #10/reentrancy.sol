@@ -26,5 +26,5 @@ contract Reentrance {
     }
   }
 
-  receive() external payable {}
+  receiv() external payable {}
 }
