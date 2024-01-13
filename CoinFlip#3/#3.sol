@@ -35,6 +35,6 @@ contract Hack {
         // Calculate the coin flip outcome.
         uint256 coinFlip = blockValue / FACTOR;
         // Return true if the outcome is 1, otherwise false.
-        retur coinFlip == 1;
+        return coinFlip == 1;
     }
 }
